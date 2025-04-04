@@ -15,8 +15,8 @@ A powerful Python script to clean and standardize file/directory names in bulk.
 2. Make the script executable:
    ```bash
    chmod +x piropath.py
-3. Run the script with the template:    
-    ./piorpath.py [OPTIONS] -p [PATH]
+3. Run the script with the template:
+   ```./piorpath.py [OPTIONS] -p [PATH]```
 
 ## ❗ Examples
 

@@ -1,7 +1,7 @@
 # Path Purifier Tool
 
 ![Python Version](https://img.shields.io/badge/python-3.6+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 A powerful Python script to clean and standardize file/directory names in bulk.
 

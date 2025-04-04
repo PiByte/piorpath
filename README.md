@@ -58,11 +58,11 @@ A powerful Python script to clean and standardize file/directory names in bulk.
 Feel free to fork, modify, and submit pull requests! Open an issue for:
 
 - Bug reports 🐛
-- 
+
 - Feature ideas 💡
-- 
+
 - Questions ❓
-- 
+
 Keep changes focused and tested. All constructive contributions are welcome!
 
 

@@ -53,3 +53,17 @@ A powerful Python script to clean and standardize file/directory names in bulk.
 
 - ⚠️ Do not use this tool in root directroy, it is risky
 
+
+## 💡 Want to Improve This Project?
+Feel free to fork, modify, and submit pull requests! Open an issue for:
+
+- Bug reports 🐛
+- 
+- Feature ideas 💡
+- 
+- Questions ❓
+- 
+Keep changes focused and tested. All constructive contributions are welcome!
+
+
+

@@ -19,7 +19,7 @@ A powerful Python script to clean and standardize file/directory names in bulk.
    ```bash
    ./piorpath.py [OPTIONS] -p [PATH]
 
-## ❗ Examples
+## ⁉️ Examples
 
 | Header 1            | Header 2 
 |---------------------|----------

@@ -23,7 +23,6 @@ A powerful Python script to clean and standardize file/directory names in bulk.
 
 | Header 1            | Header 2 
 |---------------------|----------
-| ./piorpath.py -H |Process hidden files
 | ./piorpath.py -u|Removes '_' underscore char 
 | ./piorpath.py -d|Removes '-' dash char
 | ./piorpath.py -k|Keep white spaces in names (Not Recommended.)

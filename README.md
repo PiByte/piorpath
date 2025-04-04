@@ -36,8 +36,8 @@ A powerful Python script to clean and standardize file/directory names in bulk.
 ## 🧪 Transformation Examples
 | Original Name | Command | Result |
 |----------|----------|----------|
-| Photo 123@Home.jpg| -s | Photo123Home.jpg  |
-| report-2023-final.pdf| -d |  report-2023-final.pdf |
+| Photo 12@Home.jpg| -s | Photo12Home.jpg  |
+| report-2023-final.pdf| -d |  report2023final.pdf |
 | My Document.docx  | -l -dr | mydocument.docx (dry run)  |
 | .config_file!  | -H -s -u | .configfile |
 

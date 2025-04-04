@@ -1,5 +1,5 @@
 # Path Purifier Tool
-
+[![Filename Normalizer](https://github-readme-stats.vercel.app/api/pin/?username=PiByte&repo=piorpath&theme=dark&show_owner=true)](https://github.com/PiByte/piorpath)
 ![Python Version](https://img.shields.io/badge/python-3.6+-blue.svg)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 

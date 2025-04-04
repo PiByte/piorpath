@@ -11,16 +11,11 @@ A powerful Python script to clean and standardize file/directory names in bulk.
    ```bash
    git clone https://github.com/yourusername/filename-normalizer.git
    cd filename-normalizer
-
-2. Install dependencies:
-   ```bash
-   pip install colorama
-3. Make the script executable:
+   
+2. Make the script executable:
    ```bash
    chmod +x piropath.py
-
-## 🚀 Basic Usage
-    
+3. Run the script with the template:    
     ./piorpath.py [OPTIONS] -p [PATH]
 
 ## ❗ Examples

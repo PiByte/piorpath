@@ -20,19 +20,22 @@ class NameNormalizer:
             name = name.replace(' ', '')
         if self.config['lowercase']:
             name = name.lower()
-        if self.config['replace_special']:
+        
+        # Only perform character replacement if any replacement flag is set
+        if self.config['replace_special'] or self.config['replace_underscore'] or self.config['replace_dashes']:
             pattern = r'[^a-zA-Z0-9_\-\. ]' if self.config['keep_spaces'] else r'[^a-zA-Z0-9_\-\.]'
-        
-        if self.config['replace_underscore']:
-                pattern = r'[^a-zA-Z0-9\-\. ]' if self.config['keep_spaces'] else r'[^a-zA-Z0-9\-\.]'
-        
-        if self.config['replace_dashes']:
-            if self.config['replace_underscore']:
-                pattern = r'[^a-zA-Z0-9\. ]' if self.config['keep_spaces'] else r'[^a-zA-Z0-9\.]'
-            else:
-                pattern = r'[^a-zA-Z0-9_\. ]' if self.config['keep_spaces'] else r'[^a-zA-Z0-9_\.]'
             
-        name = re.sub(pattern, self.config['replacement_char'], name)
+            if self.config['replace_underscore']:
+                pattern = r'[^a-zA-Z0-9\-\. ]' if self.config['keep_spaces'] else r'[^a-zA-Z0-9\-\.]'
+            
+            if self.config['replace_dashes']:
+                if self.config['replace_underscore']:
+                    pattern = r'[^a-zA-Z0-9\. ]' if self.config['keep_spaces'] else r'[^a-zA-Z0-9\.]'
+                else:
+                    pattern = r'[^a-zA-Z0-9_\. ]' if self.config['keep_spaces'] else r'[^a-zA-Z0-9_\.]'
+            
+            name = re.sub(pattern, self.config['replacement_char'], name)
+        
         return name
 
     def record_change(self, old, new, level):

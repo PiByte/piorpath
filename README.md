@@ -7,17 +7,37 @@ A powerful Python script to clean and standardize file/directory names in bulk.
 
 ## 📦 Installation
 
-1. Clone the repository:
+### 1. Method one: Install from source
    ```bash
    git clone https://github.com/yourusername/filename-normalizer.git
-   cd filename-normalizer
+   cd piorpath
+   pip install .
+   ```
    
-2. Make the script executable:
+### 2. Method two: Install in development mode
+   ```bash
+   git clone https://github.com/yourusername/piorpath.git
+   cd piorpath
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate    # Windows
+   pip install -e .
+   ```
+
+### 3. Method three: Install directly via pip
+   ```bash
+   pip install git+https://github.com/yourusername/piorpath.git
+   ```
+
+### 4. Make the script executable:
    ```bash
    chmod +x piropath.py
-3. Run the script with the template:
+   ```
+
+### 5. Run the script with the template:
    ```bash
    ./piorpath.py [OPTIONS] -p [PATH]
+   ```
 
 ## ⁉️ Examples
 

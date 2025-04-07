@@ -21,7 +21,6 @@ class NameNormalizer:
         if self.config['lowercase']:
             name = name.lower()
         
-        # Only perform character replacement if any replacement flag is set
         if self.config['replace_special'] or self.config['replace_underscore'] or self.config['replace_dashes']:
             pattern = r'[^a-zA-Z0-9_\-\. ]' if self.config['keep_spaces'] else r'[^a-zA-Z0-9_\-\.]'
             

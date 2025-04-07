@@ -1,0 +1,2 @@
+[console_scripts]
+piorpath = main.piorpath:main
